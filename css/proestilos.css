@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+}
+
+.contenido, .lateral, .piepagina{
+    padding: 1em 2em;
+}
+
+.contenido, .lateral, .piepagina{
+    float: left;
+    box-sizing: border-box;
+} 
+
+.contenido{
+    width: 60%;
+}
+
+.lateral{
+    width: 40%;    
+    height: 450px;    
+}
+
+.post{    
+    height: 200px;
+    margin-bottom: 1em;
+}
+
+.piepagina{
+    width: 100%;
+    background-color: #222222;
+    height: 100px;
+    color: #FFFFFF;
+}
+
+h1{
+    font-family: ar cena;
+    text-align: center;
+    color: blue;
+}
+
+p{
+    text-align: justify;
+    font-size:  20px;
+    line-height: 200%;
+    margin: 0px;
+}
+
+.pfoot{
+    text-align: center;
+    font-size: 15px;    
+}
+
+.navfoot{
+    text-align: center;
+    margin: 0px;    
+}
+
+.navfoot img{
+    width: 25px;
+    height: 25px;    
+}
+
+.navfoot ul{
+    list-style: none;
+    background-color: #222222;    
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+.navfoot li{
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 0px;    
+    font-size: 15px;    
+}
+
